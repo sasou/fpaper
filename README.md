@@ -32,11 +32,29 @@ ppt swf player!
 ```
 ## 控制代码
 ```javascript
+	1、加载新的ppt：sy_open(swf_id,file_url)；<br> 
+	demo： <a href="javascript:void(0);" onclick="sy_open('demo1','fpaper/ppt/1.swf');">加载</a>
+	<br>
+	<br>
+	2、ppt翻页：sy_go(swf_id,type,page)；<br> 
+	demo： 
 	<a href="javascript:void(0);" onclick="sy_go('demo1','page',1);">首页</a>  |
 	<a href="javascript:void(0);" onclick="sy_go('demo1','pre',0);">上一页</a>  |
 	<a href="javascript:void(0);" onclick="sy_go('demo1','next',0);">下一页</a>  |
 	<a href="javascript:void(0);" onclick="sy_go('demo1','page',5);">第五页</a>  |
 	<a href="javascript:void(0);" onclick="sy_go('demo1','page',sy_count('demo1'));">末页</a>
+	<br>
+	<br>
+	<br>
+	3、取总页数：sy_count(swf_id)；<br> 
+	demo： 
+	<a href="javascript:void(0);" onclick="alert(sy_count('demo1'));">取总页数</a>
+	<br>
+	<br>
+	<br>
+	4、取当前页：sy_current(swf_id)；<br> 
+	demo： 
+	<a href="javascript:void(0);" onclick="alert(sy_current('demo1'));">取当前页</a>
 ```
 
 ## 基本控制接口
@@ -47,3 +65,7 @@ ppt swf player!
 
 -----------
 
+
+使用场景
+---------
+文档在线预览：本方案是先将文档转换成pdf，然后转换成swf，然后在页面用flash播放swf；
