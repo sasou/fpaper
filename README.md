@@ -1,16 +1,14 @@
 # fpaper
-===========================
-ppt swf player!演示地址：https://sasou.github.io/fpaper/
-
 ****
-	
+ppt swf player!
+演示地址：https://sasou.github.io/fpaper/  
+
 |Author|sasou|
 |---|---
 |E-mail|admin@php-gene.com
 
 
-===========================
-#fpaper  
+# fpaper  
 * 加载文档：sy_open(swf_id,file_url)；  
 * 文档翻页：sy_go(swf_id,type,page)；  
 * 取总页数：sy_count(swf_id)； 
