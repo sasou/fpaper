@@ -1,0 +1,19 @@
+<View sceneWidth="600" sceneHeight="400" sceneColor="0xffffff" sceneBg="" layers="3,1,1,0,第 3 层;2,1,1,0,第 2 层;1,1,1,0,第 1 层" visible="true">
+  <Label x="0" y="-1" layer="1" width="600" height="400" var="content" align="center"/>
+  <Container layers="1,1,0,0,第 1 层;2,1,0,0,第 2 层" layer="2" bottom="0" var="nav" x="0" centerX="0" y="401" width="600" height="47">
+    <Image url="png.comp.bg" layer="2" var="botBg" width="600" height="47" x="0" y="0"/>
+    <Label x="297" y="20" layer="1"/>
+    <Container layers="1,1,0" layer="1" x="0" y="11" centerX="0">
+      <TextInput text="1" skin="png.comp.textinput" x="81" layer="1" width="26" height="26" var="page" align="center" autoSize="none" size="15"/>
+      <Label text="/" x="113" layer="1" size="15"/>
+      <Label text="0" x="125" layer="1" var="totPage" width="30" height="22" align="left" size="15"/>
+      <Button skin="png.comp.btn_next" x="161" layer="1" var="next"/>
+      <Button skin="png.comp.btn_pre" layer="1" var="pre"/>
+    </Container>
+    <Container layers="1,1,0" layer="1" x="0" y="13" right="4" var="zoom">
+      <Button skin="png.comp.btn_fullScr" layer="1" var="full"/>
+      <Button skin="png.comp.btn_exitFull" layer="1" var="noFull" visible="false"/>
+    </Container>
+  </Container>
+  <ProgressBar skin="png.comp.progress" layer="3" width="212" height="14" value="0" x="194" y="193" var="progress"/>
+</View>
