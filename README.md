@@ -65,3 +65,5 @@ ppt swf player!
 使用场景
 ---------
 文档在线预览：本方案是先将文档转换成pdf，然后转换成swf，然后在页面用flash播放swf；
+
+<a href="https://info.flagcounter.com/AEYx"><img src="https://s11.flagcounter.com/count2/AEYx/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
